@@ -27,6 +27,11 @@ body{
 .logo{
   width:100px;
   height:100px;
+  transition: all .4s ease;
+  cursor: pointer;
+}
+.logo:hover{
+  transform:scale(1.1);
 }
 .btn_container{
   display:flex;
@@ -37,6 +42,7 @@ body{
   cursor: pointer;
   background: transparent;
   border:none;
+  outline:none;
   transition: all .4s ease;
 }
 .btn:hover{
@@ -74,3 +80,7 @@ body{
   margin-bottom:5px;
 }
 span{margin-left:10px;}
+
+.none{
+  display:none;
+}
